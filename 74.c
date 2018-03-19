@@ -2,16 +2,16 @@
 int main(void) 
 {
 	float n;
-	int a;
+	int b;
 	scanf("%f",&n);
 	if(n<0)
 	{
-	    a=(int)(n-0.5);
+	    b=(int)(n-0.5);
 	}
 	else
 	{
-	    a=(int)(n+0.5);
+	    b=(int)(n+0.5);
 	}
-	printf("%d",a);
+	printf("%d",b);
 	return 0;
 }
